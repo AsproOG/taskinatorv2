@@ -53,11 +53,11 @@ function Navbar() {
                                 Company List</NavLink>
                         </ul>
                         <ul className="nav-item">
-                            <NavLink to="/Signin" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")
+                            <NavLink to="/SignUp" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")
                             }
                                 onClick={closeMobileMenu}
                             >
-                                Sign In</NavLink>
+                                Sign Up</NavLink>
                         </ul>
                     </div>
                 </nav>

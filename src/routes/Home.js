@@ -14,7 +14,7 @@ export default function Home() {
         <h2> Taskinator is your task-getting solution!</h2>
         <h2> Find tasks listed by top companies in your field and get experience!</h2>
         <h2 class="h2-button">Get Started Now!
-        <NavLink to="/Signin" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")
+        <NavLink to="/SignUp" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")
                             }
                                 
                             >
