@@ -49,7 +49,7 @@ h2 {
 
 .h2-button:hover {
   /* Add hover effect styles */
-  color: #4c00ff;
+  background-color: red;
 }
 
 

@@ -12,6 +12,7 @@ import About from "./routes/About";
 import CompanyList from "./routes/CompanyList";
 import Navbar from "./components/Navbar";
 import SignUp from "./routes/SignUp";
+import Login from "./routes/Login";
 const AppLayout = () => {
     return(
         <>
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
             path: "SignUp",
             element: <SignUp />,
           },
+          {
+            path: "Login",
+            element: <Login />,
+          }
     ]
 }
    

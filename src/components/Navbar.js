@@ -59,6 +59,13 @@ function Navbar() {
                             >
                                 Sign Up</NavLink>
                         </ul>
+                        <ul className="nav-item">
+                            <NavLink to="/Login" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")
+                            }
+                                onClick={closeMobileMenu}
+                            >
+                                Login</NavLink>
+                        </ul>
                     </div>
                 </nav>
             </IconContext.Provider>
